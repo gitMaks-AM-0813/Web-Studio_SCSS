@@ -1,0 +1,233 @@
+.footer {
+  padding: 60px 0px;
+  background-color: var(--background-color);
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo-link {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 26px;
+  font-family: var(--second-family);
+  text-decoration: none;
+}
+
+.footer-logo-link > span {
+  color: var(--accent-color);
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.footer-item-address {
+  color: var(--title-color);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.footer-mail,
+.footer-phone {
+  color: var(--desk-color);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+}
+.footer-item:nth-of-type(1) {
+  margin-top: 20px;
+}
+.footer-join{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #fff;
+}
+.footer{
+  padding: 60px 0px;
+  background-color: var(--background-dark);
+}
+
+.footer-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo-link{
+  color: var(--white);
+  font-weight: 700;
+  font-size: 26px;
+  font-family: var(--second-family);
+}
+
+.footer-logo-link > span{
+  color: var(--logo-span);
+}
+
+.footer-address{
+  margin-top: 20px;
+}
+
+.footer-address-list{
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.footer-item-address{
+  color: var(--white);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.footer-mail, .footer-phone{
+  color: var(--primary-text);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+}
+.box{
+  background-image: url("/images/computer.jpg");
+   background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    width: 370px;
+    height: 294px;
+}
+
+ .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 600px;
+    width: 600px;
+    background-color: #2196F3;
+    padding: 30px;
+    transform: translateY(100%);
+   opacity: 0.8;
+   transition-duration: 1.5s;
+   
+}
+.box:hover .overlay{
+transform: translateX(0);
+transition: transform 250ms ease;
+}
+.box-two:hover .overlay{
+transform: translateX(0);
+transition: transform 250ms ease;
+}
+.box-three:hover .overlay{
+transform: translateX(0);
+transition: transform 250ms ease;
+}
+.box-four:hover .overlay{
+transform: translateX(0);
+transition: transform 250ms ease;
+}
+.box-five:hover .overlay{
+transform: translateX(0);
+transition: transform 250ms ease;
+}
+.box-six:hover .overlay{
+transform: translateX(0);
+transition: transform 250ms ease;
+}
+.box-seven:hover .overlay{
+transform: translateX(0);
+transition: transform 250ms ease;
+}
+.box-eight:hover .overlay{
+transform: translateX(0);
+transition: transform 250ms ease;
+}
+.box-nine:hover .overlay{
+transform: translateX(0);
+transition: transform 250ms ease;
+}
+.text{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 156%;
+letter-spacing: 0.03em;
+color: #fff;
+height: 168px;
+width: 322px;
+margin-top: 32px;
+}
+.box-two{
+  background-image: url("/images/basketball.jpg");
+   background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    width: 370px;
+    height: 294px;
+}
+.box-three{
+  background-image: url("/images/seafood.jpg");
+   background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    width: 370px;
+    height: 294px;
+}
+.box-four{
+  background-image: url("/images/headphones.jpg");
+   background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    width: 370px;
+    height: 294px;
+}
+.box-five{
+  background-image: url("/images/boxes.jpg");
+   background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    width: 370px;
+    height: 294px;
+}
+.box-six{
+  background-image: url("/images/computer-two.jpg");
+   background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    width: 370px;
+    height: 294px;
+}
+.box-seven{
+  background-image: url("/images/book.jpg");
+   background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    width: 370px;
+    height: 294px;
+}
+.box-eight{
+  background-image: url("/images/label.jpg");
+   background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    width: 370px;
+    height: 294px;
+}
+.box-nine{
+  background-image: url("/images/buisness.jpg");
+   background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    width: 370px;
+    height: 294px;
+}

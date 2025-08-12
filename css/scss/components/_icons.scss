@@ -1,0 +1,86 @@
+.icon-envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 2px;
+  fill: #757575;
+}
+.icon-envelope:hover {
+  color: #2196f3;
+}
+.icon-smartphone {
+  width: 10px;
+  height: 16px;
+  fill: #757575;
+}
+
+.icon-team{
+  height: 20px;
+  width: 20px;
+fill: #AFB1B8;
+  margin-top: 28px;
+}
+
+.icon-list{
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+.icon-item:hover{
+background-color: #2196f3;
+width: 44px;
+height: 44px;
+border-radius: 50px;
+fill: white;
+
+}
+.footer-icon-team{
+  height: 20px;
+  width: 20px;
+  margin-top: 28px;
+fill: white;
+ display: flex;
+ gap: 12px;
+ 
+
+}
+
+.footer-icon-list{
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+.footer-icon-item:hover{
+background-color: #2196f3;
+width: 44px;
+height: 44px;
+border-radius: 50px;
+
+}
+
+// .team-item-link:hover .team-icon{
+// fill: white;
+// }
+.icon-client:hover{
+fill: #2196f3;
+border-color: #2196f3;
+}
+.icon-second-client:hover{
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+.icon-third-client:hover{
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+.icon-fourth-client:hover{
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+.icon-fifth-client:hover{
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+.icon-sixth-client:hover{
+  fill: #2196f3;
+  border-color: #2196f3;
+}
