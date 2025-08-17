@@ -1,86 +1,42 @@
-.clients{
-  padding: 25px 0px;
+@use "../utils/variables" as *;
+@use "../utils/placeholders" as *;
+@use "../utils/mixins" as *;
 
-  &__title{
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 36px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #212121;
-  margin-top: 94px;
-  margin-bottom: 50px; 
-  }
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
 
-  &__iconlist{
+  &__list {
     display: flex;
-  justify-content: center;
-  gap: 30px;
+    gap: 30px;
+    margin: 0 auto;
   }
-}
 
-.icon-client{
- fill: #AFB1B8;
-  margin-bottom: 110px;
-  border: 1px solid   #AFB1B8;
-  border-radius: 4px;
-}
-.icon-second-client{
-  fill: #AFB1B8;
-  margin-bottom: 110px;
-  border: 1px solid #AFB1B8;
-  border-radius: 4px;
-} 
-.icon-third-client{
-   fill: #AFB1B8;
-  margin-bottom: 110px;
-  border: 1px solid #AFB1B8;
-  border-radius: 4px;
-}
-.icon-fourth-client{
-  fill: #AFB1B8;
-  margin-bottom: 110px;
-  border: 1px solid #AFB1B8;
-  border-radius: 4px;
-}
-.icon-fifth-client{
-   fill: #AFB1B8;
-  margin-bottom: 110px;
-  border: 1px solid #AFB1B8;
-  border-radius: 4px;
-}
-.icon-sixth-client{
-  fill: #AFB1B8;
-  margin-bottom: 110px;
-  border: 1px solid #AFB1B8;
-  border-radius: 4px;
-}
-.second-icon-list{
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-.icon-client:hover{
-fill: #2196f3;
-border-color: #2196f3;
-}
-.icon-second-client:hover{
-  fill: #2196f3;
-  border-color: #2196f3;
-}
-.icon-third-client:hover{
-  fill: #2196f3;
-  border-color: #2196f3;
-}
-.icon-fourth-client:hover{
-  fill: #2196f3;
-  border-color: #2196f3;
-}
-.icon-fifth-client:hover{
-  fill: #2196f3;
-  border-color: #2196f3;
-}
-.icon-sixth-client:hover{
-  fill: #2196f3;
-  border-color: #2196f3;
+  &__link {
+    border: 1px solid;
+    border-color: $icon-color;
+    border-radius: 4px;
+    padding: 16px 32px;
+    display: block;
+
+    &:hover {
+      border-color: $main-color;
+    }
+
+    &:hover .clients__icon {
+      fill: $main-color;
+    }
+  }
+
+  &__icon {
+    fill: $icon-color;
+    width: 100px;
+    height: 60px;
+  }
+
+  &__icon {
+    fill: $icon-color;
+    width: 100px;
+    height: 60px;
+  }
 }

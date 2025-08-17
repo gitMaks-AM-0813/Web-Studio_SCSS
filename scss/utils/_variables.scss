@@ -1,34 +1,14 @@
-:root {
-  --accent-color: #2196f3;
-  --logo-color: #000000;
-  --title-color: #ffffff;
-  --desk-color: #757575;
-  --color: #212121;
-  --background-color1: #f5f4fa;
-  --background-color: #2f303a;
-  --main-font: "Raleway", "sans-serif";
-  --second-font: "Roboto", "sans-serif";
-}
-:root {
-  --font-family: "Roboto", sans-serif;
-  --second-family: "Raleway", sans-serif;
-}
-:root{
-
-  --white: #fff;
-  --black: #000;
-  --backgroung-base: #fff;
-  --background-dark: #2F303A;
-  --background-dimmed: #F5F4FA;
-  --primary-text: #757575;
-  --secondary-text: #FFFFFF;
-  --primary-title: #212121;
-  --secondary-title: #FFFFFF;
-  --hover-link: #2196F3;
-  --btn-background-highlight: #2196F3;
-  --btn-background-dimmed: #F5F4FA;
-  --btn-color-light: #FFFFFF;
-  --logo-span: #2196F3;
-  --wrap-border: #eee;
-
-}
+$header-background: rgba(236, 236, 236, 1);
+  $footer-text: rgba(255, 255, 255, 0.6);
+  $footer-background: rgba(47, 48, 58, 1);
+  $main-color: rgba(33, 150, 243, 1);
+  $light-txt-color: rgba(255, 255, 255, 1);
+  $background-team: rgba(245, 244, 250, 1);
+  $desc-color: rgba(117, 117, 117, 1);
+  $span-color: rgba(0, 0, 0, 1);
+  $titles-color: rgba(33, 33, 33, 1);
+  $adv-item-border: rgba(238, 238, 238, 1);
+  $hero-overlay: rgba(47, 48, 58, 0.4);
+  $icon-color: rgba(175, 177, 184, 1);
+  $font-family: "Roboto", sans-serif;
+  $second-family: "Raleway", sans-serif;

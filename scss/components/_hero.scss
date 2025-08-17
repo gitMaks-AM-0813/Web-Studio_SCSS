@@ -1,39 +1,38 @@
+@use "../utils/variables" as *;
+@use "../utils/placeholders" as *;
+@use "../utils/mixins" as *;
+
 .hero {
+  background: linear-gradient(to right, $hero-overlay, $hero-overlay),
+    url("/images/team.jpg") center / cover no-repeat;
   padding-top: 200px;
-  padding-bottom: 280px;
-  background-image: url("/images/team.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  padding-bottom: 200px;
+
+  &__container {
+    text-align: center;
+  }
+
+  &__button {
+    padding: 10px 32px;
+    background-color: $main-color;
+    color: $light-txt-color;
+    border-width: 0;
+    border-radius: 4px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    line-height: 30px;
+    font-size: 16px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    font-family: $font-family;
+  }
 
   &__title {
-    color: var(--title-color);
-    font-family: var(--font-family);
-    font-weight: 900;
     font-size: 44px;
-    line-height: 136%;
+    font-weight: 900;
+    line-height: 60px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+    color: $light-txt-color;
     padding-bottom: 30px;
-  }
-  &__button {
-    margin: 0 auto;
-    background-color: #2196f3;
-    border-width: 0;
-    width: 216px;
-    height: 50px;
-    border-radius: 10px;
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 187%;
-    letter-spacing: 0.06em;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding-left: 32px;
   }
 }

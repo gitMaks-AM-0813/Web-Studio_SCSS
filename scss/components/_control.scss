@@ -1,0 +1,36 @@
+@use "../utils/variables" as *;
+@use "../utils/placeholders" as *;
+@use "../utils/mixins" as *;
+
+.control {
+  padding-top: 94px;
+  padding-bottom: 50px;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  &__button {
+    background-color: $background-team;
+    color: $titles-color;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    border-width: 0;
+    border-radius: 4px;
+    padding-right: 22px;
+    padding-left: 22px;
+    text-align: center;
+    font-family: $font-family;
+
+    &:hover {
+      background-color: $main-color;
+      color: $light-txt-color;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12),
+        0 1px 2px 0 rgba(0, 0, 0, 0.08);
+    }
+  }
+}
