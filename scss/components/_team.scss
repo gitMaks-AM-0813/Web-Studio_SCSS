@@ -1,4 +1,7 @@
-.team-title {
+.team{
+background-color: var(--background-color1);
+
+&__title{
   padding-top: 94px;
   padding-bottom: 50px;
   font-family: var(--font-family);
@@ -9,22 +12,51 @@
   color: #212121;
 }
 
-.team-list {
+&__list{
   padding-bottom: 94px;
   display: flex;
   justify-content: space-around;
   gap: 30px;
   list-style: none;
 }
-.team-item {
+
+&__item{
   background-color: white;
   padding-bottom: 30px;
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
     0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
-.team {
-  background-color: var(--background-color1);
+
+&__img{
+   width: 270px;
+  height: 260px;
 }
+
+&__name{
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+&__role{
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #757575;
+}
+}
+
+
+
+
+
 .control {
   margin-top: 94px;
   margin-bottom: 34px;
@@ -40,27 +72,4 @@ span {
   font-weight: 700;
   font-size: 26px;
   color: var(--accent-color);
-}
-
-.team-img {
-  width: 270px;
-  height: 260px;
-}
-.team-name {
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #212121;
-  padding-top: 30px;
-  padding-bottom: 10px;
-}
-.team-role {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #757575;
 }
