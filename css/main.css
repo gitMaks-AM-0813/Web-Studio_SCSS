@@ -678,6 +678,13 @@ ul {
   justify-content: center;
   gap: 8px;
 }
+@media screen and (min-width: 480px) {
+  .control__list {
+    -moz-column-gap: 40px;
+         column-gap: 40px;
+    row-gap: 50px;
+  }
+}
 .control__button {
   background-color: rgb(245, 244, 250);
   color: rgb(33, 33, 33);
@@ -708,11 +715,28 @@ ul {
        column-gap: 30px;
   row-gap: 30px;
 }
+@media screen and (min-width: 480px) {
+  .advertisements__list {
+    -moz-column-gap: 40px;
+         column-gap: 40px;
+    row-gap: 50px;
+  }
+}
 .advertisements__item {
   background-color: rgb(255, 255, 255);
   text-align: start;
   flex-basis: calc((100% - 60px) / 3);
   position: relative;
+}
+@media screen and (min-width: 480px) {
+  .advertisements__item {
+    flex-basis: calc((100% - 80px) / 2);
+  }
+}
+@media screen and (min-width: 768px) {
+  .advertisements__item {
+    flex-basis: 100%;
+  }
 }
 .advertisements__item:hover {
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06);

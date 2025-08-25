@@ -40,3 +40,28 @@
     height: 60px;
   }
 }
+@media (max-width: 768px) {
+  .clients {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &__list {
+      flex-wrap: wrap;
+    }
+
+    &__link {
+      padding: 16px 60px;
+      max-width: 226px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .clients {
+    
+    &__link {
+      padding: 16px 52px;
+      max-width: 210px;
+    }
+  }
+}

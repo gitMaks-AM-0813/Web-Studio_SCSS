@@ -38,3 +38,8 @@
     height: 294px;
   }
 }
+@media (max-width: 768px) {
+  .doing {
+    display: none;
+  }
+}

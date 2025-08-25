@@ -25,7 +25,13 @@
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     font-family: $font-family;
   }
-
+@media (max-width: 768px) {
+  .hero {
+    background: linear-gradient(to right, $hero-overlay, $hero-overlay),
+      url(../images/main-page/hero-bg.jpg) center / cover no-repeat;
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
   &__title {
     font-size: 44px;
     font-weight: 900;
@@ -35,4 +41,5 @@
     color: $light-txt-color;
     padding-bottom: 30px;
   }
+}
 }

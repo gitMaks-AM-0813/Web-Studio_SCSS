@@ -1,6 +1,7 @@
 @use "../utils/variables" as *;
 @use "../utils/placeholders" as *;
 @use "../utils/mixins" as *;
+@use "../utils/fonts" as *;
 
 .header {
   padding-top: 24px;
@@ -21,7 +22,6 @@
   &__wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 93px;
   }
 
@@ -75,7 +75,7 @@
 
   &__list {
     display: flex;
-    gap: 50px;
+    gap: 30px;
   }
 
   &__link {
@@ -104,5 +104,51 @@
   &__icon:nth-child(2) {
     width: 10px;
     height: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding-top: 21px;
+    padding-bottom: 21px;
+
+    &__wrapper {
+      gap: 87px;
+    }
+
+    &__container {
+      gap: 96px;
+    }
+
+    &__list {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    &__link {
+      font-size: 12px;
+    }
+
+    &__icon {
+      fill: $desc-color;
+      width: 14px;
+      height: 10px;
+    }
+
+    &__icon:nth-child(2) {
+      width: 10px;
+      height: 14px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    &__nav, &__list {
+      display: none;
+    }
   }
 }
